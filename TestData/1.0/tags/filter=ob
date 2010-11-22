@@ -1,0 +1,27 @@
+{
+  "total": 4,
+  "page": 1,
+  "pagesize": 70,
+  "tags": [
+    {
+      "name": "objective-c",
+      "count": 4,
+      "fulfills_required": false
+    },
+    {
+      "name": "mobile",
+      "count": 1,
+      "fulfills_required": false
+    },
+    {
+      "name": "obsolete",
+      "count": 1,
+      "fulfills_required": true
+    },
+    {
+      "name": "robot",
+      "count": 1,
+      "fulfills_required": false
+    }
+  ]
+}

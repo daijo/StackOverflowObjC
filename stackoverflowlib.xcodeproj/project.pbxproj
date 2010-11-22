@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4714A48E12962A4D007D5825 /* PWSSOTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A48D12962A4D007D5825 /* PWSSOTag.h */; };
+		4714A49012962D53007D5825 /* PWSSOTagService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A48F12962D53007D5825 /* PWSSOTagService.h */; };
+		4714A49212962DD9007D5825 /* PWSSOTagServiceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A49112962DD9007D5825 /* PWSSOTagServiceDelegate.h */; };
+		4714A495129631FE007D5825 /* TagServiceTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A493129631FE007D5825 /* TagServiceTest.h */; };
+		4714A4971296320D007D5825 /* TagServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714A494129631FE007D5825 /* TagServiceTest.m */; };
+		4714A4A3129663EA007D5825 /* PWSSOTagImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A4A1129663EA007D5825 /* PWSSOTagImp.h */; };
+		4714A4A4129663EA007D5825 /* PWSSOTagImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714A4A2129663EA007D5825 /* PWSSOTagImp.m */; };
+		4714A4A71296675D007D5825 /* PWSSOTagServiceImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A4A51296675D007D5825 /* PWSSOTagServiceImp.h */; };
+		4714A4A81296675D007D5825 /* PWSSOTagServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714A4A61296675D007D5825 /* PWSSOTagServiceImp.m */; };
+		4714A4AB129674E5007D5825 /* PWSSOTagFactoryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A4AA129674E5007D5825 /* PWSSOTagFactoryDelegate.h */; };
+		4714A4AE12967F1F007D5825 /* PWSSOTagFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A4AC12967F1F007D5825 /* PWSSOTagFactory.h */; };
+		4714A4AF12967F1F007D5825 /* PWSSOTagFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714A4AD12967F1F007D5825 /* PWSSOTagFactory.m */; };
+		4714A4B2129683E0007D5825 /* PWSSOTagByFilterFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4714A4B0129683E0007D5825 /* PWSSOTagByFilterFactory.h */; };
+		4714A4B3129683E0007D5825 /* PWSSOTagByFilterFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4714A4B1129683E0007D5825 /* PWSSOTagByFilterFactory.m */; };
+		4727CFC112786A470039EE9C /* PWSSOQuestionFactoryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFAE12786A470039EE9C /* PWSSOQuestionFactoryDelegate.h */; settings = {ATTRIBUTES = (); }; };
+		4727CFC212786A470039EE9C /* PWSSOQuestionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFAF12786A470039EE9C /* PWSSOQuestionFactory.h */; settings = {ATTRIBUTES = (); }; };
+		4727CFC312786A470039EE9C /* PWSSOQuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727CFB012786A470039EE9C /* PWSSOQuestionFactory.m */; };
+		4727CFC412786A470039EE9C /* PWSSOQuestionsByTitleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFB112786A470039EE9C /* PWSSOQuestionsByTitleFactory.h */; settings = {ATTRIBUTES = (); }; };
+		4727CFC512786A470039EE9C /* PWSSOQuestionsByTitleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727CFB212786A470039EE9C /* PWSSOQuestionsByTitleFactory.m */; };
+		4727CFC612786A470039EE9C /* PWSSOQuestionServiceImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFB312786A470039EE9C /* PWSSOQuestionServiceImp.h */; };
+		4727CFC712786A470039EE9C /* PWSSOQuestionServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727CFB412786A470039EE9C /* PWSSOQuestionServiceImp.m */; };
+		4727CFC812786A470039EE9C /* PWSSOQuestionImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFB512786A470039EE9C /* PWSSOQuestionImp.h */; settings = {ATTRIBUTES = (); }; };
+		4727CFC912786A470039EE9C /* PWSSOQuestionImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727CFB612786A470039EE9C /* PWSSOQuestionImp.m */; };
+		4727CFCA12786A470039EE9C /* PWSSOUserImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFB712786A470039EE9C /* PWSSOUserImp.h */; };
+		4727CFCB12786A470039EE9C /* PWSSOUserImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727CFB812786A470039EE9C /* PWSSOUserImp.m */; };
+		4727CFCC12786A470039EE9C /* PWSSOServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4727CFB912786A470039EE9C /* PWSSOServiceFactory.m */; };
+		4727CFCD12786A470039EE9C /* PWSSOQuestionServiceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFBB12786A470039EE9C /* PWSSOQuestionServiceDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4727CFCE12786A470039EE9C /* PWSSOQuestionService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFBC12786A470039EE9C /* PWSSOQuestionService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4727CFCF12786A470039EE9C /* PWSSOServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFBD12786A470039EE9C /* PWSSOServiceFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4727CFD012786A470039EE9C /* PWSSOQuestion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFBE12786A470039EE9C /* PWSSOQuestion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4727CFD112786A470039EE9C /* PWSSOUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFBF12786A470039EE9C /* PWSSOUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4727CFD212786A470039EE9C /* PWSSODetailedUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4727CFC012786A470039EE9C /* PWSSODetailedUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4727CFE912786AA10039EE9C /* YAJLIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4727CFE812786AA10039EE9C /* YAJLIOS.framework */; };
+		47647421127EC41C003DBFE9 /* libstackoverflowlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libstackoverflowlib.a */; };
+		47647425127EC45B003DBFE9 /* QuestionServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 474967EF127DF7EC00D3D3AA /* QuestionServiceTest.m */; };
+		4764745B127EF73C003DBFE9 /* PWSSOBaseFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47647459127EF73C003DBFE9 /* PWSSOBaseFactory.h */; };
+		4764745C127EF73C003DBFE9 /* PWSSOBaseFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764745A127EF73C003DBFE9 /* PWSSOBaseFactory.m */; };
+		47647529127F22AE003DBFE9 /* YAJLIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4727CFE812786AA10039EE9C /* YAJLIOS.framework */; };
+		477EEDCC1286CFE90098119A /* PWSSOUserFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 477EEDCA1286CFE90098119A /* PWSSOUserFactory.h */; };
+		477EEDCD1286CFE90098119A /* PWSSOUserFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 477EEDCB1286CFE90098119A /* PWSSOUserFactory.m */; };
+		4786EA6E12864AFB00D85418 /* PWSSOUserService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4786EA6D12864AFB00D85418 /* PWSSOUserService.h */; };
+		4786EA7012864C0D00D85418 /* PWSSOUserServiceDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4786EA6F12864C0D00D85418 /* PWSSOUserServiceDelegate.h */; };
+		4786EA7A12864F5300D85418 /* PWSSOUserServiceImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4786EA7812864F5300D85418 /* PWSSOUserServiceImp.h */; };
+		4786EA7B12864F5300D85418 /* PWSSOUserServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4786EA7912864F5300D85418 /* PWSSOUserServiceImp.m */; };
+		4786EA881286545000D85418 /* PWSSODetailedUserImp.h in Headers */ = {isa = PBXBuildFile; fileRef = 4786EA861286545000D85418 /* PWSSODetailedUserImp.h */; };
+		4786EA891286545000D85418 /* PWSSODetailedUserImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4786EA871286545000D85418 /* PWSSODetailedUserImp.m */; };
+		4786EA991286577D00D85418 /* PWSSOUserFactoryDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4786EA981286577D00D85418 /* PWSSOUserFactoryDelegate.h */; };
+		47974C141287962C0014D32E /* PWSSOUserByDisplayNameFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47974C121287962C0014D32E /* PWSSOUserByDisplayNameFactory.h */; };
+		47974C151287962C0014D32E /* PWSSOUserByDisplayNameFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47974C131287962C0014D32E /* PWSSOUserByDisplayNameFactory.m */; };
+		47974C2E1287A1230014D32E /* UserServiceTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 47974C2C1287A1230014D32E /* UserServiceTest.h */; };
+		47974C321287A1920014D32E /* UserServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 47974C2D1287A1230014D32E /* UserServiceTest.m */; };
+		47CFDA9F1299059E003F8B56 /* PWSSOUserByIdFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CFDA9D1299059E003F8B56 /* PWSSOUserByIdFactory.h */; };
+		47CFDAA01299059E003F8B56 /* PWSSOUserByIdFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFDA9E1299059E003F8B56 /* PWSSOUserByIdFactory.m */; };
+		47CFDAC112990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CFDABF12990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.h */; };
+		47CFDAC212990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CFDAC012990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.m */; };
+		AA747D9F0F9514B9006C5449 /* stackoverflowlib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* stackoverflowlib_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47496824127EC21E00D3D3AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = stackoverflowlib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4714A48D12962A4D007D5825 /* PWSSOTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTag.h; sourceTree = "<group>"; };
+		4714A48F12962D53007D5825 /* PWSSOTagService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagService.h; sourceTree = "<group>"; };
+		4714A49112962DD9007D5825 /* PWSSOTagServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagServiceDelegate.h; sourceTree = "<group>"; };
+		4714A493129631FE007D5825 /* TagServiceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagServiceTest.h; sourceTree = "<group>"; };
+		4714A494129631FE007D5825 /* TagServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagServiceTest.m; sourceTree = "<group>"; };
+		4714A4A1129663EA007D5825 /* PWSSOTagImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagImp.h; sourceTree = "<group>"; };
+		4714A4A2129663EA007D5825 /* PWSSOTagImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOTagImp.m; sourceTree = "<group>"; };
+		4714A4A51296675D007D5825 /* PWSSOTagServiceImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagServiceImp.h; sourceTree = "<group>"; };
+		4714A4A61296675D007D5825 /* PWSSOTagServiceImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOTagServiceImp.m; sourceTree = "<group>"; };
+		4714A4AA129674E5007D5825 /* PWSSOTagFactoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagFactoryDelegate.h; sourceTree = "<group>"; };
+		4714A4AC12967F1F007D5825 /* PWSSOTagFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagFactory.h; sourceTree = "<group>"; };
+		4714A4AD12967F1F007D5825 /* PWSSOTagFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOTagFactory.m; sourceTree = "<group>"; };
+		4714A4B0129683E0007D5825 /* PWSSOTagByFilterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOTagByFilterFactory.h; sourceTree = "<group>"; };
+		4714A4B1129683E0007D5825 /* PWSSOTagByFilterFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOTagByFilterFactory.m; sourceTree = "<group>"; };
+		4727CFAE12786A470039EE9C /* PWSSOQuestionFactoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionFactoryDelegate.h; sourceTree = "<group>"; };
+		4727CFAF12786A470039EE9C /* PWSSOQuestionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionFactory.h; sourceTree = "<group>"; };
+		4727CFB012786A470039EE9C /* PWSSOQuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOQuestionFactory.m; sourceTree = "<group>"; };
+		4727CFB112786A470039EE9C /* PWSSOQuestionsByTitleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionsByTitleFactory.h; sourceTree = "<group>"; };
+		4727CFB212786A470039EE9C /* PWSSOQuestionsByTitleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOQuestionsByTitleFactory.m; sourceTree = "<group>"; };
+		4727CFB312786A470039EE9C /* PWSSOQuestionServiceImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionServiceImp.h; sourceTree = "<group>"; };
+		4727CFB412786A470039EE9C /* PWSSOQuestionServiceImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOQuestionServiceImp.m; sourceTree = "<group>"; };
+		4727CFB512786A470039EE9C /* PWSSOQuestionImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionImp.h; sourceTree = "<group>"; };
+		4727CFB612786A470039EE9C /* PWSSOQuestionImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOQuestionImp.m; sourceTree = "<group>"; };
+		4727CFB712786A470039EE9C /* PWSSOUserImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserImp.h; sourceTree = "<group>"; };
+		4727CFB812786A470039EE9C /* PWSSOUserImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOUserImp.m; sourceTree = "<group>"; };
+		4727CFB912786A470039EE9C /* PWSSOServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOServiceFactory.m; sourceTree = "<group>"; };
+		4727CFBB12786A470039EE9C /* PWSSOQuestionServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionServiceDelegate.h; sourceTree = "<group>"; };
+		4727CFBC12786A470039EE9C /* PWSSOQuestionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestionService.h; sourceTree = "<group>"; };
+		4727CFBD12786A470039EE9C /* PWSSOServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOServiceFactory.h; sourceTree = "<group>"; };
+		4727CFBE12786A470039EE9C /* PWSSOQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOQuestion.h; sourceTree = "<group>"; };
+		4727CFBF12786A470039EE9C /* PWSSOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUser.h; sourceTree = "<group>"; };
+		4727CFC012786A470039EE9C /* PWSSODetailedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSODetailedUser.h; sourceTree = "<group>"; };
+		4727CFE812786AA10039EE9C /* YAJLIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAJLIOS.framework; sourceTree = "<group>"; };
+		474967B8127DDF5100D3D3AA /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		474967EE127DF7EC00D3D3AA /* QuestionServiceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionServiceTest.h; sourceTree = "<group>"; };
+		474967EF127DF7EC00D3D3AA /* QuestionServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionServiceTest.m; sourceTree = "<group>"; };
+		47496821127EC21800D3D3AA /* UnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47647459127EF73C003DBFE9 /* PWSSOBaseFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOBaseFactory.h; sourceTree = "<group>"; };
+		4764745A127EF73C003DBFE9 /* PWSSOBaseFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOBaseFactory.m; sourceTree = "<group>"; };
+		477EEDCA1286CFE90098119A /* PWSSOUserFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserFactory.h; sourceTree = "<group>"; };
+		477EEDCB1286CFE90098119A /* PWSSOUserFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOUserFactory.m; sourceTree = "<group>"; };
+		4786EA6D12864AFB00D85418 /* PWSSOUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserService.h; sourceTree = "<group>"; };
+		4786EA6F12864C0D00D85418 /* PWSSOUserServiceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserServiceDelegate.h; sourceTree = "<group>"; };
+		4786EA7812864F5300D85418 /* PWSSOUserServiceImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserServiceImp.h; sourceTree = "<group>"; };
+		4786EA7912864F5300D85418 /* PWSSOUserServiceImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOUserServiceImp.m; sourceTree = "<group>"; };
+		4786EA861286545000D85418 /* PWSSODetailedUserImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSODetailedUserImp.h; sourceTree = "<group>"; };
+		4786EA871286545000D85418 /* PWSSODetailedUserImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSODetailedUserImp.m; sourceTree = "<group>"; };
+		4786EA981286577D00D85418 /* PWSSOUserFactoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserFactoryDelegate.h; sourceTree = "<group>"; };
+		47974C121287962C0014D32E /* PWSSOUserByDisplayNameFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserByDisplayNameFactory.h; sourceTree = "<group>"; };
+		47974C131287962C0014D32E /* PWSSOUserByDisplayNameFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOUserByDisplayNameFactory.m; sourceTree = "<group>"; };
+		47974C2C1287A1230014D32E /* UserServiceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserServiceTest.h; sourceTree = "<group>"; };
+		47974C2D1287A1230014D32E /* UserServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserServiceTest.m; sourceTree = "<group>"; };
+		47CFDA9D1299059E003F8B56 /* PWSSOUserByIdFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUserByIdFactory.h; sourceTree = "<group>"; };
+		47CFDA9E1299059E003F8B56 /* PWSSOUserByIdFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOUserByIdFactory.m; sourceTree = "<group>"; };
+		47CFDABF12990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWSSOUnansweredQuestionsByTagsFactory.h; sourceTree = "<group>"; };
+		47CFDAC012990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWSSOUnansweredQuestionsByTagsFactory.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* stackoverflowlib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stackoverflowlib_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libstackoverflowlib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstackoverflowlib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4749681E127EC21800D3D3AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47647421127EC41C003DBFE9 /* libstackoverflowlib.a in Frameworks */,
+				47647529127F22AE003DBFE9 /* YAJLIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4727CFE912786AA10039EE9C /* YAJLIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libstackoverflowlib.a */,
+				47496821127EC21800D3D3AA /* UnitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* stackoverflowlib */ = {
+			isa = PBXGroup;
+			children = (
+				474967ED127DF7B400D3D3AA /* Test */,
+				4727CFBA12786A470039EE9C /* Interface */,
+				4727CFAA12786A470039EE9C /* Implementation */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				474967B8127DDF5100D3D3AA /* UnitTest-Info.plist */,
+			);
+			name = stackoverflowlib;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4727CFE812786AA10039EE9C /* YAJLIOS.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* stackoverflowlib_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4714A4A012963CA7007D5825 /* TagService */ = {
+			isa = PBXGroup;
+			children = (
+				4714A4A1129663EA007D5825 /* PWSSOTagImp.h */,
+				4714A4A2129663EA007D5825 /* PWSSOTagImp.m */,
+				4714A4A51296675D007D5825 /* PWSSOTagServiceImp.h */,
+				4714A4A61296675D007D5825 /* PWSSOTagServiceImp.m */,
+				4714A4A9129674C2007D5825 /* TagFactories */,
+			);
+			name = TagService;
+			sourceTree = "<group>";
+		};
+		4714A4A9129674C2007D5825 /* TagFactories */ = {
+			isa = PBXGroup;
+			children = (
+				4714A4AA129674E5007D5825 /* PWSSOTagFactoryDelegate.h */,
+				4714A4AC12967F1F007D5825 /* PWSSOTagFactory.h */,
+				4714A4AD12967F1F007D5825 /* PWSSOTagFactory.m */,
+				4714A4B0129683E0007D5825 /* PWSSOTagByFilterFactory.h */,
+				4714A4B1129683E0007D5825 /* PWSSOTagByFilterFactory.m */,
+			);
+			name = TagFactories;
+			sourceTree = "<group>";
+		};
+		4727CFAA12786A470039EE9C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4727CFB912786A470039EE9C /* PWSSOServiceFactory.m */,
+				47647458127EF69B003DBFE9 /* Common */,
+				4714A4A012963CA7007D5825 /* TagService */,
+				4727CFAC12786A470039EE9C /* QuestionService */,
+				4727CFAB12786A470039EE9C /* UserService */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4727CFAB12786A470039EE9C /* UserService */ = {
+			isa = PBXGroup;
+			children = (
+				4786EA861286545000D85418 /* PWSSODetailedUserImp.h */,
+				4786EA871286545000D85418 /* PWSSODetailedUserImp.m */,
+				4786EA7812864F5300D85418 /* PWSSOUserServiceImp.h */,
+				4786EA7912864F5300D85418 /* PWSSOUserServiceImp.m */,
+				4786EA85128653D800D85418 /* UserFactories */,
+			);
+			name = UserService;
+			sourceTree = "<group>";
+		};
+		4727CFAC12786A470039EE9C /* QuestionService */ = {
+			isa = PBXGroup;
+			children = (
+				4727CFB312786A470039EE9C /* PWSSOQuestionServiceImp.h */,
+				4727CFB412786A470039EE9C /* PWSSOQuestionServiceImp.m */,
+				4727CFB512786A470039EE9C /* PWSSOQuestionImp.h */,
+				4727CFB612786A470039EE9C /* PWSSOQuestionImp.m */,
+				4727CFB712786A470039EE9C /* PWSSOUserImp.h */,
+				4727CFB812786A470039EE9C /* PWSSOUserImp.m */,
+				4727CFAD12786A470039EE9C /* QuestionFactories */,
+			);
+			name = QuestionService;
+			sourceTree = "<group>";
+		};
+		4727CFAD12786A470039EE9C /* QuestionFactories */ = {
+			isa = PBXGroup;
+			children = (
+				4727CFAE12786A470039EE9C /* PWSSOQuestionFactoryDelegate.h */,
+				4727CFAF12786A470039EE9C /* PWSSOQuestionFactory.h */,
+				4727CFB012786A470039EE9C /* PWSSOQuestionFactory.m */,
+				4727CFB112786A470039EE9C /* PWSSOQuestionsByTitleFactory.h */,
+				4727CFB212786A470039EE9C /* PWSSOQuestionsByTitleFactory.m */,
+				47CFDABF12990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.h */,
+				47CFDAC012990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.m */,
+			);
+			name = QuestionFactories;
+			sourceTree = "<group>";
+		};
+		4727CFBA12786A470039EE9C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4727CFBB12786A470039EE9C /* PWSSOQuestionServiceDelegate.h */,
+				4727CFBC12786A470039EE9C /* PWSSOQuestionService.h */,
+				4727CFBD12786A470039EE9C /* PWSSOServiceFactory.h */,
+				4727CFBE12786A470039EE9C /* PWSSOQuestion.h */,
+				4727CFBF12786A470039EE9C /* PWSSOUser.h */,
+				4727CFC012786A470039EE9C /* PWSSODetailedUser.h */,
+				4786EA6D12864AFB00D85418 /* PWSSOUserService.h */,
+				4786EA6F12864C0D00D85418 /* PWSSOUserServiceDelegate.h */,
+				4714A48D12962A4D007D5825 /* PWSSOTag.h */,
+				4714A48F12962D53007D5825 /* PWSSOTagService.h */,
+				4714A49112962DD9007D5825 /* PWSSOTagServiceDelegate.h */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		474967ED127DF7B400D3D3AA /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				474967EE127DF7EC00D3D3AA /* QuestionServiceTest.h */,
+				474967EF127DF7EC00D3D3AA /* QuestionServiceTest.m */,
+				47974C2C1287A1230014D32E /* UserServiceTest.h */,
+				47974C2D1287A1230014D32E /* UserServiceTest.m */,
+				4714A493129631FE007D5825 /* TagServiceTest.h */,
+				4714A494129631FE007D5825 /* TagServiceTest.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		47647458127EF69B003DBFE9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				47647459127EF73C003DBFE9 /* PWSSOBaseFactory.h */,
+				4764745A127EF73C003DBFE9 /* PWSSOBaseFactory.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4786EA85128653D800D85418 /* UserFactories */ = {
+			isa = PBXGroup;
+			children = (
+				4786EA981286577D00D85418 /* PWSSOUserFactoryDelegate.h */,
+				477EEDCA1286CFE90098119A /* PWSSOUserFactory.h */,
+				477EEDCB1286CFE90098119A /* PWSSOUserFactory.m */,
+				47974C121287962C0014D32E /* PWSSOUserByDisplayNameFactory.h */,
+				47974C131287962C0014D32E /* PWSSOUserByDisplayNameFactory.m */,
+				47CFDA9D1299059E003F8B56 /* PWSSOUserByIdFactory.h */,
+				47CFDA9E1299059E003F8B56 /* PWSSOUserByIdFactory.m */,
+			);
+			name = UserFactories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* stackoverflowlib_Prefix.pch in Headers */,
+				4727CFC112786A470039EE9C /* PWSSOQuestionFactoryDelegate.h in Headers */,
+				4727CFC212786A470039EE9C /* PWSSOQuestionFactory.h in Headers */,
+				4727CFC412786A470039EE9C /* PWSSOQuestionsByTitleFactory.h in Headers */,
+				4727CFC612786A470039EE9C /* PWSSOQuestionServiceImp.h in Headers */,
+				4727CFC812786A470039EE9C /* PWSSOQuestionImp.h in Headers */,
+				4727CFCA12786A470039EE9C /* PWSSOUserImp.h in Headers */,
+				4727CFCD12786A470039EE9C /* PWSSOQuestionServiceDelegate.h in Headers */,
+				4727CFCE12786A470039EE9C /* PWSSOQuestionService.h in Headers */,
+				4727CFCF12786A470039EE9C /* PWSSOServiceFactory.h in Headers */,
+				4727CFD012786A470039EE9C /* PWSSOQuestion.h in Headers */,
+				4727CFD112786A470039EE9C /* PWSSOUser.h in Headers */,
+				4727CFD212786A470039EE9C /* PWSSODetailedUser.h in Headers */,
+				4764745B127EF73C003DBFE9 /* PWSSOBaseFactory.h in Headers */,
+				4786EA6E12864AFB00D85418 /* PWSSOUserService.h in Headers */,
+				4786EA7012864C0D00D85418 /* PWSSOUserServiceDelegate.h in Headers */,
+				4786EA7A12864F5300D85418 /* PWSSOUserServiceImp.h in Headers */,
+				4786EA881286545000D85418 /* PWSSODetailedUserImp.h in Headers */,
+				4786EA991286577D00D85418 /* PWSSOUserFactoryDelegate.h in Headers */,
+				477EEDCC1286CFE90098119A /* PWSSOUserFactory.h in Headers */,
+				47974C141287962C0014D32E /* PWSSOUserByDisplayNameFactory.h in Headers */,
+				47974C2E1287A1230014D32E /* UserServiceTest.h in Headers */,
+				4714A48E12962A4D007D5825 /* PWSSOTag.h in Headers */,
+				4714A49012962D53007D5825 /* PWSSOTagService.h in Headers */,
+				4714A49212962DD9007D5825 /* PWSSOTagServiceDelegate.h in Headers */,
+				4714A495129631FE007D5825 /* TagServiceTest.h in Headers */,
+				4714A4A3129663EA007D5825 /* PWSSOTagImp.h in Headers */,
+				4714A4A71296675D007D5825 /* PWSSOTagServiceImp.h in Headers */,
+				4714A4AB129674E5007D5825 /* PWSSOTagFactoryDelegate.h in Headers */,
+				4714A4AE12967F1F007D5825 /* PWSSOTagFactory.h in Headers */,
+				4714A4B2129683E0007D5825 /* PWSSOTagByFilterFactory.h in Headers */,
+				47CFDA9F1299059E003F8B56 /* PWSSOUserByIdFactory.h in Headers */,
+				47CFDAC112990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47496820127EC21800D3D3AA /* UnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4749682E127EC25E00D3D3AA /* Build configuration list for PBXNativeTarget "UnitTest" */;
+			buildPhases = (
+				4749681C127EC21800D3D3AA /* Resources */,
+				4749681D127EC21800D3D3AA /* Sources */,
+				4749681E127EC21800D3D3AA /* Frameworks */,
+				4749681F127EC21800D3D3AA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47496825127EC21E00D3D3AA /* PBXTargetDependency */,
+			);
+			name = UnitTest;
+			productName = UnitTest;
+			productReference = 47496821127EC21800D3D3AA /* UnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D2AAC07D0554694100DB518D /* stackoverflowlib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "stackoverflowlib" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stackoverflowlib;
+			productName = stackoverflowlib;
+			productReference = D2AAC07E0554694100DB518D /* libstackoverflowlib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "stackoverflowlib" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* stackoverflowlib */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* stackoverflowlib */,
+				47496820127EC21800D3D3AA /* UnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4749681C127EC21800D3D3AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4749681F127EC21800D3D3AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4749681D127EC21800D3D3AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47647425127EC45B003DBFE9 /* QuestionServiceTest.m in Sources */,
+				47974C321287A1920014D32E /* UserServiceTest.m in Sources */,
+				4714A4971296320D007D5825 /* TagServiceTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4727CFC312786A470039EE9C /* PWSSOQuestionFactory.m in Sources */,
+				4727CFC512786A470039EE9C /* PWSSOQuestionsByTitleFactory.m in Sources */,
+				4727CFC712786A470039EE9C /* PWSSOQuestionServiceImp.m in Sources */,
+				4727CFC912786A470039EE9C /* PWSSOQuestionImp.m in Sources */,
+				4727CFCB12786A470039EE9C /* PWSSOUserImp.m in Sources */,
+				4727CFCC12786A470039EE9C /* PWSSOServiceFactory.m in Sources */,
+				4764745C127EF73C003DBFE9 /* PWSSOBaseFactory.m in Sources */,
+				4786EA7B12864F5300D85418 /* PWSSOUserServiceImp.m in Sources */,
+				4786EA891286545000D85418 /* PWSSODetailedUserImp.m in Sources */,
+				477EEDCD1286CFE90098119A /* PWSSOUserFactory.m in Sources */,
+				47974C151287962C0014D32E /* PWSSOUserByDisplayNameFactory.m in Sources */,
+				4714A4A4129663EA007D5825 /* PWSSOTagImp.m in Sources */,
+				4714A4A81296675D007D5825 /* PWSSOTagServiceImp.m in Sources */,
+				4714A4AF12967F1F007D5825 /* PWSSOTagFactory.m in Sources */,
+				4714A4B3129683E0007D5825 /* PWSSOTagByFilterFactory.m in Sources */,
+				47CFDAA01299059E003F8B56 /* PWSSOUserByIdFactory.m in Sources */,
+				47CFDAC212990DD7003F8B56 /* PWSSOUnansweredQuestionsByTagsFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47496825127EC21E00D3D3AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* stackoverflowlib */;
+			targetProxy = 47496824127EC21E00D3D3AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/stackoverflowlib.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stackoverflowlib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = stackoverflowlib;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/stackoverflowlib.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = stackoverflowlib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = stackoverflowlib;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "SRCROOT=@\\\"$(SRCROOT)\\\"";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator4.0;
+			};
+			name = Release;
+		};
+		47496822127EC21800D3D3AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "UnitTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTest;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		47496823127EC21800D3D3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				INFOPLIST_FILE = "UnitTest-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					SenTestingKit,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTest;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "stackoverflowlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "stackoverflowlib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4749682E127EC25E00D3D3AA /* Build configuration list for PBXNativeTarget "UnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47496822127EC21800D3D3AA /* Debug */,
+				47496823127EC21800D3D3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

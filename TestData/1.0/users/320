@@ -1,0 +1,40 @@
+{
+  "total": 1,
+  "page": 1,
+  "pagesize": 30,
+  "users": [
+    {
+      "user_id": 320,
+      "user_type": "registered",
+      "creation_date": 1274425911,
+      "display_name": "Mark Harrison",
+      "reputation": 2101,
+      "email_hash": "f79b395a801bf291b74e8bccea8e03f8",
+      "age": 48,
+      "last_access_date": 1286864029,
+      "website_url": "http://markharrison.net",
+      "location": "Piedmont, California",
+      "about_me": "Since moving to the Bay Area in 2001 I have been working at Pixar.  Prior to that I lived in China and was the Chief Software Architect at AsiaInfo, the company that built China's internet.  I studied computer science and worked in Texas for many years.\r\n<p><p>\r\nfeel free to drop me a line if you've got any feedback on stuff I've posted here:<p><p>mh@pixar.com\r\n",
+      "question_count": 0,
+      "answer_count": 0,
+      "view_count": 5,
+      "up_vote_count": 0,
+      "down_vote_count": 0,
+      "association_id": "b4a1e151-3ff7-48b1-977c-c94ff4af7901",
+      "user_questions_url": "/users/320/questions",
+      "user_answers_url": "/users/320/answers",
+      "user_favorites_url": "/users/320/favorites",
+      "user_tags_url": "/users/320/tags",
+      "user_badges_url": "/users/320/badges",
+      "user_timeline_url": "/users/320/timeline",
+      "user_mentioned_url": "/users/320/mentioned",
+      "user_comments_url": "/users/320/comments",
+      "user_reputation_url": "/users/320/reputation",
+      "badge_counts": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 1
+      }
+    }
+  ]
+}
