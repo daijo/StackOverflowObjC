@@ -1,0 +1,10 @@
+StackOverflowObjC
+=================
+An objective-c implementation of the Stack Overflow API. Not yet a complete implementation.
+
+Supports:
+
+- Filtered tags search
+- Get user by id or username
+- Search question by title
+- Get unanswered questions by tags
