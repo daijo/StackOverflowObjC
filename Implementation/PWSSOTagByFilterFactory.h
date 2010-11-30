@@ -14,7 +14,7 @@
 #import "PWSSOTagImp.h"
 
 
-@interface PWSSOTagByFilterFactory : PWSSOTagFactory {
+@interface PWSSOTagByFilterFactory : PWSSOTagFactory <YAJLParserDelegate> {
 	NSString* currentKey;
 	PWSSOTagImp* tag;
 	int dictionaryLevel;
@@ -25,6 +25,7 @@
 @property (retain) PWSSOTagImp* tag;
 @property (retain) NSString* currentKey;
 
++(id)tagFactoryWithDelegate:(id<PWSSOTagFactoryDelegate>) delegate;
 -(void)getTagsByFilter:(NSString *)filter;
 
 @end

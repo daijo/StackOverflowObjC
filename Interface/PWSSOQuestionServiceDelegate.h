@@ -9,7 +9,7 @@
 @protocol PWSSOQuestionService;
 @protocol PWSSOQuestion;
 
-@protocol PWSSOQuestionServiceDelegate
+@protocol PWSSOQuestionServiceDelegate <NSObject>
 
 -(void)questionService:(id<PWSSOQuestionService>)questionService gotQuestion:(id<PWSSOQuestion>)question;
 -(void)questionServiceFinished:(id<PWSSOQuestionService>)questionService;

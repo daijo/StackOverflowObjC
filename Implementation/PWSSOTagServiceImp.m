@@ -10,6 +10,7 @@
 #import "PWSSOTagServiceDelegate.h"
 #import "PWSSOTagServiceImp.h"
 #import "PWSSOTagByFilterFactory.h"
+#import "PWSSOTagFactoryDelegate.h"
 
 
 @implementation PWSSOTagServiceImp
@@ -49,7 +50,7 @@
 }
 
 -(void)tagFactoryFailed:(PWSSOTagFactory *)tagFactory WithError:(NSError *)error {
-	[self.delegate tagServiceFailed:self WithError:error];
+	[self.delegate tagService:self didFailWithError:error];
 	[tagFactory release];
 	running = NO;
 }

@@ -83,6 +83,30 @@ static NSString * quotation = @"'";
 	[connection release];
 }
 
+-(void)parserDidStartDictionary:(YAJLParser *)parser {
+    [self doesNotRecognizeSelector:_cmd];
+}
+
+-(void)parserDidEndDictionary:(YAJLParser *)parser {
+    [self doesNotRecognizeSelector:_cmd];
+}
+
+-(void)parserDidStartArray:(YAJLParser *)parser {
+    [self doesNotRecognizeSelector:_cmd];
+}
+
+-(void)parserDidEndArray:(YAJLParser *)parser {
+    [self doesNotRecognizeSelector:_cmd];
+}
+
+-(void)parser:(YAJLParser *)parser didMapKey:(NSString *)key {
+    [self doesNotRecognizeSelector:_cmd];
+}
+
+-(void)parser:(YAJLParser *)parser didAdd:(id)value {
+    [self doesNotRecognizeSelector:_cmd];
+}
+
 - (void)dealloc {
 	self.request = nil;
 	self.parser = nil;

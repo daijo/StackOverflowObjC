@@ -12,7 +12,7 @@
 @protocol PWSSOTagFactoryDelegate;
 
 
-@interface PWSSOTagFactory : PWSSOBaseFactory  <YAJLParserDelegate> {
+@interface PWSSOTagFactory : PWSSOBaseFactory {
 	id<PWSSOTagFactoryDelegate> delegate;
 }
 

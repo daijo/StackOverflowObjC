@@ -9,6 +9,7 @@
 #import "QuestionServiceTest.h"
 #import "PWSSOServiceFactory.h"
 #import "PWSSOBaseFactory.h"
+#import "PWSSOQuestionService.h"
 #import "PWSSOQuestion.h"
 
 @implementation QuestionServiceTest
@@ -231,8 +232,6 @@ done, receivedError;
 }
 
 -(void)questionServiceFailed:(id <PWSSOQuestionService>)questionService WithError:(NSError *)error{
-
-	NSLog(error.description);
 	
 	self.testCaseLock = NO;
 	self.doneWithErrors = YES;

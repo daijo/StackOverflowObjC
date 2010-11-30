@@ -12,9 +12,12 @@
 @protocol PWSSOQuestionServiceDelegate;
 @protocol PWSSOUserService;
 @protocol PWSSOUserServiceDelegate;
+@protocol PWSSOTagService;
+@protocol PWSSOTagServiceDelegate;
 
 @interface PWSSOServiceFactory : NSObject {
 }
 +(id<PWSSOQuestionService>) questionServiceWithDelegate:(id<PWSSOQuestionServiceDelegate>) delegate;
 +(id<PWSSOUserService>) userServiceWithDelegate:(id<PWSSOUserServiceDelegate>) delegate;
++(id<PWSSOTagService>) tagServiceWithDelegate:(id<PWSSOTagServiceDelegate>) delegate;
 @end

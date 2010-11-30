@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <YAJLIOS/YAJLIOS.h>
 
-@interface PWSSOBaseFactory : NSObject {
+@interface PWSSOBaseFactory : NSObject <YAJLParserDelegate> {
 	YAJLParser *parser;
 	NSString *request;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "UserServiceTest.h"
+#import "PWSSOUserService.h"
 #import "PWSSOServiceFactory.h"
 #import "PWSSOBaseFactory.h"
 #import "PWSSODetailedUser.h"
@@ -286,8 +287,6 @@ done, receivedError;
 }
 
 -(void)userService:(id<PWSSOUserService>)userService didFailWithError:(NSError *)error {
-	
-	NSLog(error.description);
 	
 	self.testCaseLock = NO;
 	self.doneWithErrors = YES;

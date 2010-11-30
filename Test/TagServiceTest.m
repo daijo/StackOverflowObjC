@@ -10,6 +10,7 @@
 #import "PWSSOServiceFactory.h"
 #import "PWSSOBaseFactory.h"
 #import "PWSSOTag.h"
+#import "PWSSOTagService.h"
 
 @implementation TagServiceTest
 
@@ -141,8 +142,6 @@ done, receivedError;
 }
 
 -(void)tagService:(id<PWSSOTagService>)tagService didFailWithError:(NSError *)error {
-	
-	NSLog(error.description);
 	
 	self.testCaseLock = NO;
 	self.doneWithErrors = YES;

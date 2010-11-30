@@ -13,6 +13,6 @@
 
 @property (copy) NSString *name;
 @property (copy) NSNumber *count;
-@property (assign) BOOL *fulfillsRequired;
+@property (assign) BOOL fulfillsRequired;
 
 @end

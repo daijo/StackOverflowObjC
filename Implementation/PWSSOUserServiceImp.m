@@ -6,6 +6,7 @@
 //  Copyright 2010 Patchwork Solutions AB. All rights reserved.
 //
 
+#import "PWSSOUserServiceDelegate.h"
 #import "PWSSOUserServiceImp.h"
 #import "PWSSOUserByIdFactory.h"
 #import "PWSSOUserByDisplayNameFactory.h"

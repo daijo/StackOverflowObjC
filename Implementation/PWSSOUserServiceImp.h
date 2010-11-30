@@ -14,7 +14,7 @@
 
 @protocol PWSSOUserServiceDelegate;
 
-@interface PWSSOUserServiceImp : NSObject {
+@interface PWSSOUserServiceImp : NSObject <PWSSOUserService, PWSSOUserFactoryDelegate>{
 	id<PWSSOUserServiceDelegate> delegate;
 	BOOL running;
 }

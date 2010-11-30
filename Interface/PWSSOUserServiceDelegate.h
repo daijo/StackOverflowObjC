@@ -11,7 +11,7 @@
 @protocol PWSSOUserService;
 @protocol PWSSODetailedUser;
 
-@protocol PWSSOUserServiceDelegate
+@protocol PWSSOUserServiceDelegate <NSObject>
 
 -(void)userService:(id<PWSSOUserService>)userService gotUser:(id<PWSSODetailedUser>)user;
 -(void)userServiceFinished:(id<PWSSOUserService>)userService;

@@ -13,7 +13,7 @@
 @interface PWSSOTagImp : NSObject <PWSSOTag> {
 	NSString *name;
 	NSNumber *count;
-	BOOL *fulfillsRequired;
+	BOOL fulfillsRequired;
 }
 
 +(id<PWSSOTag>) tag;

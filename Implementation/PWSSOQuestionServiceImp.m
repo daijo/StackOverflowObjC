@@ -37,7 +37,7 @@
 	}
 }
 
--(void)getUnansweredQuestionsByTags:(NSString *)tags {
+-(void)getUnansweredQuestionsByTags:(NSArray *)tags {
 	if (!running) {
 		running = YES;
 		PWSSOUnansweredQuestionsByTagsFactory *questionFactory  = [PWSSOUnansweredQuestionsByTagsFactory questionFactoryWithDelegate:self];

@@ -12,7 +12,7 @@
 @protocol PWSSOTagService;
 
 
-@protocol PWSSOTagServiceDelegate
+@protocol PWSSOTagServiceDelegate <NSObject>
 
 -(void)tagService:(id<PWSSOTagService>)tagService gotTag:(id<PWSSOTag>)tag;
 -(void)tagServiceFinished:(id<PWSSOTagService>)tagService;
