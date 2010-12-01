@@ -1,6 +1,6 @@
 StackOverflowObjC
 =================
-An objective-c implementation of the Stack Overflow API. Not yet a complete implementation.
+An objective-c implementation of the Stack Overflow API. Done as a personal objective-c, TDD, REST API exercise, for actual use there are complete implementations like https://github.com/archgrove/CoreStack
 
 Supports:
 
