@@ -274,8 +274,6 @@ done, receivedError;
 	}
 
 	self.userCount++;
-	
-	[user release];
 }
 
 -(void)userServiceFinished:(id<PWSSOUserService>)userService {

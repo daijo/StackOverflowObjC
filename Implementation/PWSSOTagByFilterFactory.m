@@ -47,6 +47,7 @@
 	
 	dictionaryLevel--;
 	if (dictionaryLevel == 0 && self.tag != nil) {
+        [self.tag autorelease];
 		[self.delegate tagFactory:self gotTag:self.tag];
 		self.tag = nil;
 	}

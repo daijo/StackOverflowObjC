@@ -42,6 +42,7 @@
 	
 	dictionaryLevel--;
 	if (dictionaryLevel == 0 && self.user != nil) {
+        [self.user autorelease];
 		[self.delegate userFactory:self gotUser:self.user];
 		self.user = nil;
 	}

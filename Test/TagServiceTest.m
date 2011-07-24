@@ -129,8 +129,6 @@ done, receivedError;
 	}
 	
 	self.tagCount++;
-	
-	[tag release];
 }
 
 -(void)tagServiceFinished:(id<PWSSOTagService>)tagService {

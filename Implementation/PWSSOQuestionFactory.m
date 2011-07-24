@@ -43,6 +43,7 @@
 	
 	dictionaryLevel--;
 	if (parsingQuestions && dictionaryLevel == 0) {
+        [self.question autorelease];
 		[self.delegate questionFactory:self gotQuestion:self.question];
 		self.question = nil;
 	}

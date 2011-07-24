@@ -219,8 +219,6 @@ done, receivedError;
 	} 
 	
 	self.searchCount++;
-	
-	[question release];
 }
 
 -(void)questionServiceFinished:(id<PWSSOQuestionService>)questionService {
